@@ -19,6 +19,21 @@ const routes: Array<RouteConfig> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
+  {
+    path: "/medium",
+    name: "Medium",
+    component: () => import("../views/medium.vue"),
+  },
+  {
+    path: "/projects",
+    name: "projects",
+    component: () => import("../views/My-Projects.vue"),
+  },
+  {
+    path: "/Privacy",
+    name: "privacy",
+    component: () => import("@/views/Privacy.vue"),
+  }
 ];
 
 const router = new VueRouter({
