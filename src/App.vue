@@ -9,7 +9,8 @@
     <router-view />
     <div id="footer">
       <router-link to="/Privacy">Privacy</router-link> |
-      <router-link to="/Medium">Writings</router-link>
+      <router-link to="/Medium">Writings</router-link> |
+      <a href="https://github.com/lerichardson/litbelb.com">Edit this page on GitHub</a>
     </div>
   </div>
 </template>
@@ -52,7 +53,7 @@ body {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: rgb(255, 255, 0);
 }
 
 #nav a.router-link-exact-active {
