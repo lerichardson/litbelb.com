@@ -517,10 +517,11 @@
 
       <h3>How “Do Not Track” requests are handled</h3>
       <p>
-        This Application does support “Do Not Track” requests. There’s no consensus on how best to do this.
-        But, we have adopted an approach that we believe honors the fundamental pro-privacy aims of the DNT standard. <br />To determine
-        whether any of the third-party services it uses honor the “Do Not Track”
-        requests, please read their privacy policies.
+        This Application does support “Do Not Track” requests. There’s no
+        consensus on how best to do this. But, we have adopted an approach that
+        we believe honors the fundamental pro-privacy aims of the DNT standard.
+        <br />To determine whether any of the third-party services it uses honor
+        the “Do Not Track” requests, please read their privacy policies.
       </p>
 
       <h3>Changes to this privacy policy</h3>

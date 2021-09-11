@@ -61,10 +61,24 @@
         </div>
       </div>
       <div class="my-tweets">
-        <a class="twitter-timeline" data-width="800" data-height="1200" data-dnt="true" href="https://twitter.com/Litbelb?ref_src=twsrc%5Etfw">Tweets by me</a>
-        <br>
-        <a href="https://twitter.com/intent/tweet?screen_name=Litbelb&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-dnt="true" data-show-count="false">Tweet me</a>
-    </div>
+        <a
+          class="twitter-timeline"
+          data-width="800"
+          data-height="1200"
+          data-dnt="true"
+          href="https://twitter.com/Litbelb?ref_src=twsrc%5Etfw"
+          >Tweets by me</a
+        >
+        <br />
+        <a
+          href="https://twitter.com/intent/tweet?screen_name=Litbelb&ref_src=twsrc%5Etfw"
+          class="twitter-mention-button"
+          data-size="large"
+          data-dnt="true"
+          data-show-count="false"
+          >Tweet me</a
+        >
+      </div>
     </div>
   </div>
 </template>

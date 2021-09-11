@@ -43,7 +43,7 @@ const routes: Array<RouteConfig> = [
     path: "/yt/COVID",
     name: "COVID",
     component: () => import("@/views/yt/COVID.vue"),
-  }
+  },
 ];
 
 const router = new VueRouter({

@@ -10,7 +10,9 @@
     <div id="footer">
       <router-link to="/Privacy">Privacy</router-link> |
       <router-link to="/Medium">Writings</router-link> |
-      <a href="https://github.com/lerichardson/litbelb.com">Edit this page on GitHub</a>
+      <a href="https://github.com/lerichardson/litbelb.com"
+        >Edit this page on GitHub</a
+      >
     </div>
   </div>
 </template>
