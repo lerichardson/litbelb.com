@@ -10,6 +10,7 @@ const routes: Array<RouteConfig> = [
     name: "Home",
     component: Home,
   },
+  /*
   {
     path: "/about",
     name: "About",
@@ -17,7 +18,8 @@ const routes: Array<RouteConfig> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/About.vue"),
+      import(/* webpackChunkName: "about" "@/views/About.vue"),
+      /*
   },
   {
     path: "/medium",
@@ -39,6 +41,7 @@ const routes: Array<RouteConfig> = [
     name: "covid-videoId734198",
     component: () => import("@/views/yt/covid-videoId734198.vue"),
   },
+  */
   {
     path: "/yt/COVID",
     name: "COVID",

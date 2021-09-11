@@ -6,6 +6,36 @@
       <router-link to="/projects">My Projects</router-link> |
       <router-link to="/medium">Blog</router-link>
     </div>
+    <div id="911">
+      <div class="911-text">
+        <h1>Hi</h1>
+        <p>
+          I write this with a heavy heart. If you didn't know, today's the 20th
+          anniversary of the 9/11 attacks. So many people lost their lives, it
+          was a sad day. I wasn't alive then, but I know many people who were.
+          It was a horrific day. I decided to write this and shut down my
+          website for today, as a tribute to the day and those who worked so
+          hard to save people's lives. So, to the first responders, I want to
+          thank you for your efforts. You saw some horrific things that day, and
+          you helped to save lives. That's a noble act. To those who watched as
+          the first and second planes hit, I wish you the best. To those who
+          survived, I wish you the best. I suggest further reading on some of
+          these articles and videos I have picked:
+          <br />
+          <br />
+          <a href="https://humanparts.medium.com/my-plan-on-9-11-17065434385b"
+            >On 9/11, All My Plans Went Up In Smoke</a
+          >
+          (Medium | Human Parts | John DeVore)
+          <br />
+          <a
+            href="https://www.vox.com/22654167/cost-deaths-war-on-terror-afghanistan-iraq-911"
+            >20 years, $6 trillion, 900,000 lives</a
+          >
+          (Vox | Dylan Matthews)
+        </p>
+      </div>
+    </div>
     <router-view />
     <div id="footer">
       <router-link to="/Privacy">Privacy</router-link> |
@@ -46,6 +76,8 @@ body {
   color: #212529;
   text-align: center;
   background-color: transparent;
+  margin-right: 15rem;
+  margin-left: 15rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
