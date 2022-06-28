@@ -43,6 +43,7 @@
       <a href="https://github.com/lerichardson/litbelb.com"
         >Edit this page on GitHub</a
       >
+      <router-link to="/Medium">Writings</router-link>
     </div>
   </div>
 </template>
@@ -87,7 +88,7 @@ body {
 
 #nav a {
   font-weight: bold;
-  color: rgb(255, 255, 0);
+  color: #2c3e50;
 }
 
 #nav a.router-link-exact-active {
